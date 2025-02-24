@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "prebuild": "rm -rf dist && npm run test",
     "build": "webpack --config webpack.config.js"
   },
   "keywords": [],
