@@ -6,6 +6,9 @@
     "service_worker": "background.bundle.js",
     "type": "module"
   },
+  "action": {
+    "default_popup": "popup.html"
+  },
   "content_scripts": [
     {
       "matches": [
