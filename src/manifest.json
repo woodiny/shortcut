@@ -18,5 +18,10 @@
         "contentScript.bundle.js"
       ]
     }
+  ],
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs"
   ]
 }
